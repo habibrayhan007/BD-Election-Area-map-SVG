@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+ background-color: antiquewhite;
+ display: flex;
+ justify-content: center;
+}
+svg{
+    width: 100%;
+    height: 100vh;
+}
+
+polyline:hover{
+    fill: green;
+}
+#dhaka-middle:hover{
+    fill: none;
+}
+#chitagong-middle:hover{
+    fill: none;
+}
+path:hover{
+    fill: green;
+}
+polygon:hover{
+    fill: green;
+}
